@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>__TITLE__</title>
+  <meta name="description" content="__DESCRIPTION__">
+  <meta name="author" content="__AUTHOR__">
+
+  <meta property="og:title" content="__TITLE__">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="__WEBSITE__">
+  <meta property="og:description" content="__DESCRIPTION__">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+  <template id="gallery-item-template">
+    <div class="gallery-item" tabindex="0">
+      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="gallery-image"
+        alt="" width="633" height="633">
+      <div class="gallery-item-info">
+        <ul>
+          <li class="gallery-item-likes">
+            <span class="visually-hidden">Likes:</span>
+            <i class="fas fa-heart" aria-hidden="true"></i>
+            <span class="gallery-item-likes-count"></span>
+          </li>
+          <li class="gallery-item-comments">
+            <span class="visually-hidden">Comments:</span>
+            <i class="fas fa-comment" aria-hidden="true"></i>
+            <span class="gallery-item-comments-count"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </template>
+
+  <div class="overlay is-hidden">
+    <div class="overlay-image-holder">
+      <img class="overlay-image-holder-image" src="#" alt="" width="1688" height="1688">
+      <div class="overlay-caption">
+        <div class="overlay-description"></div>
+      </div>
+    </div>
+  </div>
+
+  <header>
+
+    <div class="container">
+      <div class="profile">
+
+        <div class="profile-image">
+          <img src="/thumbs/__PROFILE_PHOTO__" alt="" width="150" height="150"
+            style="object-position: __PROFILE_PHOTO_POSITION__">
+        </div> <!-- profile image -->
+
+        <div class="profile-user-settings">
+          <h1 class="profile-user-name">__PROFILE_NAME__</h1>
+        </div>
+
+        <div class="profile-stats">
+          <ul>
+            <li><span id="stat-posts" class="profile-stat-count">164</span> posts</li>
+            <li><span id="stat-followers" class="profile-stat-count">188</span> followers</li>
+            <li><span id="stat-following" class="profile-stat-count">206</span> following</li>
+          </ul>
+        </div>
+
+        <div class="profile-bio">
+          <p>
+            <span class="profile-real-name">__FULL_NAME__</span> __PROFILE_BIO__
+          </p>
+        </div>
+
+      </div> <!-- profile -->
+    </div> <!-- container -->
+  </header>
+
+  <main>
+
+    <div class="container">
+      <div class="gallery"></div>
+    </div>
+  </main>
+</body>
+
+</html>

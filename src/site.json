@@ -1,0 +1,69 @@
+{
+  "title": "Example Dog Site",
+  "description": "A fake Instagram for a dog",
+  "author": "Someone with too much time",
+  "website": "https://this.definitely.isnt.a.real.website.but.the.pictures.are.probably.all.real.dog",
+  "profile_name": "a_singular_dog_",
+  "full_name": "Definitely one dog",
+  "profile_bio": "Hi there! I'm definitely not six different stock photo dogs in a trenchcoat, but one cohesive and photogenic dog 🐶 📸",
+  "profile_photo": {
+    "url": "dog1",
+    "objectPosition": "50% 50%"
+  },
+  "posts": [
+    {
+      "description": "Here's a recent photo of me.",
+      "media": [
+        {
+          "url": "dog1",
+          "objectPosition": "50% 50%"
+        }
+      ]
+    },
+    {
+      "description": "Belive it or not, this is aalso a recent photo of me. Time isn't real.",
+      "media": [
+        {
+          "url": "dog2",
+          "objectPosition": "50% 50%"
+        }
+      ]
+    },
+    {
+      "description": "\"For just ten cents a day, you can\"— woops sorry, wrong site.",
+      "media": [
+        {
+          "url": "dog3",
+          "objectPosition": "50% 50%"
+        }
+      ]
+    },
+    {
+      "description": "Still me, same cute, slightly different everything else.",
+      "media": [
+        {
+          "url": "dog4",
+          "objectPosition": "50% 50%"
+        }
+      ]
+    },
+    {
+      "description": "Goodness gracious, I'm adorable.",
+      "media": [
+        {
+          "url": "dog5",
+          "objectPosition": "50% 50%"
+        }
+      ]
+    },
+    {
+      "description": "Here's me accessorizing my eyes and coat.",
+      "media": [
+        {
+          "url": "dog6",
+          "objectPosition": "50% 50%"
+        }
+      ]
+    }
+  ]
+}

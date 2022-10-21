@@ -1,0 +1,6 @@
+images/full/*.jpg filter=lfs diff=lfs merge=lfs -text
+images/thumbs/*.jpg filter=lfs diff=lfs merge=lfs -text
+images/full/*.webp filter=lfs diff=lfs merge=lfs -text
+images/thumbs/*.webp filter=lfs diff=lfs merge=lfs -text
+images/*.png filter=lfs diff=lfs merge=lfs -text
+images/*.ico filter=lfs diff=lfs merge=lfs -text
